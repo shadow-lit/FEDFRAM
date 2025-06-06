@@ -1,0 +1,14 @@
+{
+  "file": "../examples/data/breast_homo_guest.csv",
+  "head": true,
+  "partitions": 4,
+  "extend_sid": true,
+  "meta": {
+    "delimiter": ",",
+    "dtype": "float64",
+    "label_name": "y",
+    "match_id_name": "id"
+  },
+  "namespace": "experiment",
+  "name": "breast_homo_guest"
+} 

@@ -1,0 +1,72 @@
+# FATE Standalone Installation (excluded as requested)
+standalone_fate_install_2.2.0_release/
+standalone_fate_install_2.2.0_release.tar.gz
+
+# Frontend Dependencies
+frontend/node_modules/
+frontend/node_modules.zip
+frontend/build/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data Files (temporary training data)
+federated_learning_tutorial/data/
+federated_learning_tutorial/results/
+federated_learning_tutorial/uploads/
+federated_learning_tutorial/processed/
+federated_learning_tutorial/*.json
+federated_learning_tutorial/*.csv
+federated_learning_tutorial/*.pkl
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
